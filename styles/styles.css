@@ -1,20 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+
+
+
+
+
+
 /*----------------
  header parts--------------------
 ------------------ */
-/* .heading{
-    text-align: right;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding-right: 200px;
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 30px;
- gap: 150px;
- background-image: url(../images/banner/banner3.png);
- background-size: cover;
- background-repeat: no-repeat;
-  
-} */
+
+
+
+
+   
 .heading{
     height: 500px;
     width:88%;
@@ -142,8 +141,9 @@ text-align: center;
  pictures section-******
  -------****** */
  .photo-part{
-    height: 400px;
-    background-image: url('../images/watch.png');
+    height: 300px;
+   background:linear-gradient(to right, rgba(0, 0, 255,0.5),rgb(255, 255, 255,0.5)) ,url('../images/watch.png');
+   
     background-repeat: no-repeat;
     justify-content: space-evenly;
     margin-left: 230px;
@@ -155,8 +155,11 @@ text-align: center;
     font-weight: bold;
     font-size: 2.5em;
     color: white;
-   
+   padding-left: 30px;
     padding-top: 30px;
+    font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
  }
 
  .bttn{
@@ -165,6 +168,7 @@ text-align: center;
     background-color: white;
     color: blue;
     padding: 15px 10px;
+    margin-left: 30px;
     border: 0;
     border-radius: 5px;
     
@@ -184,6 +188,8 @@ text-align: center;
  }
 
  .last-section{
+   
+   margin-top: 100px;
     padding-left: 230px;
     padding-top: 50px;
     padding-right: 230px;
@@ -215,6 +221,7 @@ border-radius: 5px;
 font-size: 16px;
 padding: 20px 10px;
 margin-top: 15px;
+margin-left: 235px;
  }
 
  .last-btn{
@@ -225,4 +232,5 @@ margin-top: 15px;
     border: 0;
     border-radius: 5px;
     margin-top: 15px;
+    margin-left: 235px;
  }
